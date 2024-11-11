@@ -20,3 +20,18 @@ JS Map Function
 JS filter function 
 - -------------------------- - 
 1. It can use for the data search
+
+
+JS Find Function 
+- ---------------------- - 
+1. Find function is used to find the value for the firt value.
+2. Just like break, condition is correct, It will not excute the rest of code.
+
+JS some function 
+- ------------------------ -
+1. Return ture when at least one condition true
+
+JS every function 
+- ---------------- - 
+1. Every is the reverse of some function.
+2. When at all condition are true, return true.
