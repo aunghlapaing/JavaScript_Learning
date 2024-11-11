@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is the example for the tpyefucntion and void function example</p>
+</body>
+
+<script>
+
+    //type function (return function) example with ES6 arrow function syntx
+    // let typeFunction = (num1, num2) => {
+    //     return num1 + num2;
+    // }
+
+    let typeFunction = (num1, num2) => num1 + num2; //typefunction shortcut if one line
+    
+
+    let ans = typeFunction (3, 4); //function call
+    document.write ("This is the typeFunction example : " + ans);
+
+    //void function (No return function) examle with normal function syntx
+    let voidFunction = function (){
+        let name = 'Aung Hla';
+        console.log ("This is the void function output: " + name);
+    }
+    voidFunction ();
+</script>
+</html>

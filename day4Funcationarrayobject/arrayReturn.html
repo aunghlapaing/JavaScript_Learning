@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is an Example for the array return</p>
+
+
+    <script>
+
+        let arrayReturn = () => {
+            return ['apple', 'mango'];
+        }
+        console.log ( arrayReturn () );
+
+        let arrayReturnshortcut = () => ['apple', 'mango'];
+        console.log ( arrayReturnshortcut() );
+
+        //object return
+        let objectReturn = () => {
+            return {
+                name : 'Aung Hla',
+                age : 20
+            }
+        }
+        console.log ( objectReturn() );
+
+        let objectReturshortcut = () => ( //() is important key
+            {
+                name : 'Aung Hla',
+                age : 20
+            }
+        )
+        console.log ( objectReturshortcut() );
+    </script>
+</body>
+</html>

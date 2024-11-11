@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is tesing for the Object with function</p>
+    <p id = 'tesing'></p>
+</body>
+<script>
+    let name = 'Aye Chan';
+    const myObj = {
+        firstName : 'Aung',
+        lastName : 'Hla',
+        age : [10, 20, 30, 40, 50],
+        fullName : function (firstName){
+
+            /*
+            work flow of this function
+            ---------------------------
+            1. fullName function was declared within the myObj Object
+            2. It has the parameter named firstName, to return the value from function call
+            3. But in this case, there is a same name with fullName's parameter, which is the property that assigned key ('Aung')
+            4. Ihe program has a call for this fullName function, but this function will return non of properties from myObj object. 
+            5. It will return the value outside of this array, It can be user input.
+            6. But it will remain as a return value in myObj.
+            7. in this case, if we use the 'this' keywords, the property which has the same with parameter, will return to the function call.
+            8. Therefore, we can uunderstand that 'this' keyword is used when we would like to avoid the confusion when same name within the program.
+            */
+           
+            //return firstName;
+            return this.firstName;
+        }
+    };
+    
+    console.log (myObj.fullName(name));
+
+    // document.getElementById ('testing').innerHTML = myObj.firstName;
+
+    // let result = myObj.fullName (name);
+
+    // document.getElementById ('testing').innerHTML = result;
+    
+    
+
+</script>
+</html>

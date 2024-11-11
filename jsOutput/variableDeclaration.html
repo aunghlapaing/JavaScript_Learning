@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p id ="demo"></p>
+    <p id ="demo1"></p>
+    <script>
+        const number = 10;
+        document.getElementById("demo").innerHTML = number;
+
+        let number1 = 300;
+        // document.getElementById ("demo1").innerHTML = largeNumber;
+        function print(){
+            let sum = number1 + number1;
+            var largeNumber = 100;
+            let anotherLargeNumber = 1001;
+            
+            anotherLargeNumber = 100; //override the anotherLargeNumber
+
+            if (number1 < 200){
+                document.getElementById ("demo1").innerHTML =sum;
+            }else{
+                document.getElementById ("demo1").innerHTML = "fail";
+            }
+            
+            console.log(anotherLargeNumber);
+            
+        }
+        print();
+    </script>
+</body>
+</html>

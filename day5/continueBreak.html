@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is testing for the continue and break</p>
+
+
+    <script>
+        let student = [
+        {name : 'aung hla', age : 20, gender : 'female'},
+            {name : 'aung hla', age : 20, gender : 'male'},
+            {name : 'Kyaw Kyaw', age : 20, gender : 'male'},
+            {name : 'Hla Hla', age : 20, gender : 'female'},
+            {name : 'aung hla', age : 20, gender : 'male'}
+        ];
+
+        for (let i = 0; i<student.length; i++){
+            if ( student[i].gender == 'male'){
+                //continue; //skip all male, and continue the program
+                break; // left from the program if the statement is true
+            }
+             console.log (student[i]);
+        }
+    </script>
+</body>
+</html>

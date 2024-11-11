@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is the object Display</p>
+    <p id = 'testing'></p>
+
+    <script>
+        //declare the object
+        let userInfo = {
+            name : 'Aung Hla',
+            age : 20,
+            job : 'programmer'
+        }
+
+        //display the object by using loop
+
+        /*
+        we cann't display the object in dom but in console is fine
+        but we can change it to text or string value by using the loop  function to dispplay in dom.
+        */
+       document.getElementById('testing').innerHTML = userInfo;
+
+       let text = '';
+       for ( let x in userInfo){
+        text += userInfo[x] + ' ';
+        
+       }
+
+       document.getElementById('testing').innerHTML = text;
+    </script>
+</body>
+</html>

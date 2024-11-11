@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is testing for the rest parameter</p>
+</body>
+
+<script>
+    //Spread Operator replace the concat
+    //concat
+    const myClass = ['dataTechnologies', 'mobileDevelopment', 'FDC', 'dataStructureandalgorithm'];
+    const myDailylife = ['wakeUp', 'washFace', 'eatBreakfast', 'study', 'takeLunch', 'rest', 'gym', 'takeShower', 'takeDinner', 'goTobed'];
+
+    const copyArray = myClass.concat(myDailylife); //concat
+    let copyArray1 = [...myClass, ...myDailylife]; //spread operator ...
+
+    console.log (copyArray);
+    console.log (copyArray1);
+
+    //copy the array
+    let car = ['honda', 'marcedes', 'ford', 'toyota'];
+
+    let copyCar = car;
+    console.log (copyCar);
+
+    function getNumber (num1, num2, num3, ...num){ //rest parameter will store as array
+        num.forEach(element => { //for each for the array num
+            console.log (element);
+        });
+        console.log ( num1, num2, num3, num);
+    }
+
+    (getNumber (10, 20, 30, 40, 50, 60) ) ; // this int must come from the user Input in real world application
+
+    let fruits = ['banana', 'orange', 'mango'];
+
+    fruits.forEach(element, index, currentArr => { //index is index number parameter, currentArr is current array parameter in JS
+        console.log (element, index, currentArr);
+    });
+</script>
+</html>

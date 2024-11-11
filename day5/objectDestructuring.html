@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>this is object destructuring testing</p>
+
+    <script>
+        //object declaration
+        const userInfo = {};
+
+        //add properties
+        userInfo.name = 'Aung Hla';
+        userInfo.age = 20; 
+        userInfo.job = 'programmer';
+
+        //object destructuring
+        let {name, age, job} = userInfo; //object key and destructring name must be same
+        console.log (userInfo);
+
+        // const arrayuserInfo = Object.values (userInfo);
+
+        // const [userName, userAge, userJob] = arrayuserInfo ;
+        // console.log (userAge);
+    </script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+<script src="./example.js"> don't write the code between those src text.</script>
+
+Variable Declaration 
+---------------------------
+let, var, const (NOTE: const is stable, we can't override, we use to set the API key or some sort of stable things)

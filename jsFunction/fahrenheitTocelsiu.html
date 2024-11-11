@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <P>A return function that converst farhenheit to celsius</P>
+</body>
+<script>
+//function declaration 
+function myTesting (f){
+    return ((5/9)*(f-32));
+}
+
+let userInput = prompt ("Enter a number for ferhenheit");
+let convertor = myTesting (userInput);
+document.write ("Convertion from Farhenheit to Celsius: "+" "+ convertor);
+
+console.log(typeof convertor);
+
+
+
+</script>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is just testing for the array and object</p>
+</body>
+<script>
+    //let name = prompt ('Enter user name');
+    let name = 'Si Thu';
+    let userInfo = {
+        name : function (username){
+            return username;
+        },
+        gender : ['male', 'female', {gay : () => "no"}],
+        agegroup : {
+            under18 : ['yes','no'],
+            over18 : ['yes','no']
+        }
+    }
+    console.log (userInfo.name (name));
+    console.log (userInfo);
+    console.log (userInfo.gender[2].gay());
+</script>
+</html>

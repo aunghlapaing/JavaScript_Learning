@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is the example for the spread operator</p>
+</body>
+<script>
+    let userInfo = {};
+
+    //add properties 
+    userInfo.name = 'Aung Hla';
+    userInfo.age = 20; 
+    userInfo.job = 'programmer';
+
+    //copy the object 
+    let copyObj = userInfo;
+    // console.log (copyObj);
+
+    //object destructuring  
+    let {name, age, job} = userInfo;
+    console.log (userInfo.age);
+    
+    
+    </script>
+
+</html>

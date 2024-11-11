@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is an example for the local variable and galobal</p>
+</body>
+<script>
+    let name = 'code lab'; //golobal varibale 
+    let age = 20;
+
+    let studentArray = ['Aung Hla', 20];
+
+    let getName = () => name;
+
+    console.log ( getName() );
+
+    let studentInfo = () => studentArray[0];
+    console.log ( studentInfo() ); //function call
+
+    //local variable example within the function
+    let parentInfo = () => {
+        let parentname = 'U Tin Oo'; //local varibale
+        let parentage = 50; //local variable
+        console.log("This is parent information : "+ parentname + " "+ parentage);
+        
+    }
+    parentInfo();
+
+    // function studentInfo (name1, age1) {
+    //     return name1 + age1 ; 
+    // }
+
+    // let ans = studentInfo (name, age);
+    // console.log (ans);
+    
+</script>
+</html>

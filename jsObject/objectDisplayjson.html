@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is testig for the object display by using the JSON.stringify()</p>
+    <p id = 'demo'></p>
+
+
+    <script>
+        let car = {
+            name : 'ford',
+            model : 2023,
+            price : 20000000
+        }
+
+        // document.getElementById('demo').innerHTML = Object.values(car);
+
+        //create json.string 
+        let jsonCar = JSON.stringify (car);
+
+        document.getElementById ('demo').innerHTML = jsonCar;
+        //document.getElementById('demo').innerHTML = JSON.stringify(car);
+
+        // let text = ''
+        // for (let x in car){
+        //     text += car[x]+ "";
+        // }
+        // document.getElementById('demo').innerHTML = text;
+
+        
+    </script>
+</body>
+</html>

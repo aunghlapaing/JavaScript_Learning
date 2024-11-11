@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is testing for the object display by using the entries</p>
+    <p id = 'demo'></p>
+</body>
+<script>
+    let userInfo = new Object ();
+
+    userInfo.userName = 'Aung Hla';
+    userInfo.age = 20;
+    userInfo.job = 'programmer';
+
+    let text = '';
+    for (let [userInfo, value] of Object.entries (userInfo)){
+        text += userInfo + "" + value;
+    }
+    document.getElementById('demo').innerHTML = text;
+</script>
+</html>

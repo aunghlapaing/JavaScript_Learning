@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is testing for the diaply object by changing it to array</p>
+    <p id = 'testing'></p>
+
+    <script>
+        //declare empyt object
+        const userInfo = {
+            // name : 'Aung Hla',
+            // age : 20,
+            // job : 'programmer'
+        };
+
+
+        //add properties
+        userInfo.firstName = 'Aung';
+        userInfo.lastName = 'Hla';
+        userInfo.age = 20;
+
+        //create array syntx to copy the array
+        const userArray = Object.values (userInfo);
+
+        document.getElementById('testing').innerHTML = userArray;
+    </script>
+</body>
+</html>

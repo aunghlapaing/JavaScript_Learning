@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is testing for adding the method into the object</p>
+</body>
+<script>
+
+    //let age = 20;
+    //declare the object with new Object keyword
+    let userInfo = new Object ();
+
+    //add properties
+    userInfo.age = 30;
+    userInfo.job = 'programmer';
+    //adding method
+    userInfo.name = function (){
+        return this.age;
+    }
+
+    console.log (userInfo.name());
+</script>
+</html>

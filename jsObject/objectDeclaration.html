@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is differnet Style of creating the Object</p>
+
+    <script>
+        const userInfo = {
+            name : 'Aung Hla', //properties
+            age : 20, 
+            role : 'programmer'
+        }
+        console.log (userInfo);
+
+        //create the empty object
+        const userInfo1 = {};
+
+        //add properties
+        userInfo1.name = 'Tun Tun';
+        userInfo1.age = 30;
+        userInfo1.job = 'programmer';
+
+        console.log (userInfo1);
+
+        //create a object by using the new keyword
+        const userInfo2 = new Object(); // o in Object must be the captial letter
+
+        //add properties 
+        userInfo2.name = 'Kyaw Kyaw';
+        userInfo2.age = 30;
+        userInfo2.job = 'programmer';
+
+        //we can't override the object, but we can copy this object which was declared with const
+        const copyObject = userInfo2;
+
+
+        console.log (copyObject);
+    </script>
+</body>
+</html>

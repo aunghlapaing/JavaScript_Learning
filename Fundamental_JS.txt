@@ -1,0 +1,169 @@
+Full Stack
+--------------------------------------
+Front-end + Backend + Database + API + Server Deployment
+
+Full stack frame work for the language
+
+MERN Stack =>
+MEAN Stack =>
+Some sort of like that
+
+Do and Don't
+1. Goals
+2. Don't Copy Past
+3. Demand (Depend on the country that you desire to work)
+
+
+
+JS cann't connect to the database, however some node.js can connect to the database, so that we can use this kind of js for the bankend
+
+
+
+Website VS Web App
+
+Website is the static and Web App is the dynamic (User can do some interactive reaction.)
+
+CSR Client Side Rendering
+The website doesn't have own database, data come from the other server side API, (Some Vue, angular can't connect to the database, So this Language can create the CSR project)
+
+Server-Side Rendering (SSR)
+The Website have the own database,
+
+Front end (HTML, CSS, JavaScript)
+
+
+
+At the end of the project, Have to create (Point of Sale)
+
+
+CRUD
+- Login Logout (Simple, Github, Google Login)
+- DB relation
+- Search
+- File Stroage
+- Comment - Rating - Review - Cart - Payment
+- Security
+- Stock Management
+
+
+java Script
+- Powerfull (For Frontend, Backend, Game)
+- Easy to Learn
+- Many Package
+- JQuery, Node Js, Next Js and Net Js,  those framework are based on the JS
+- Compitable for the Cross Paltform
+- no need to do Environment set up, But Have some requirement to code
+
+1. Browsers (Any kind of Browsers)
+2. Code Editor (Any kind of code editors such as VSCode (Support Many Extension), Atom, Php stome, Sublimetext)
+
+Note
+*External Connection and Internal Connection (Just like CSS Style)
+
+- Current location (./) link to HTML from Extranel JS file
+-Exit from the current location (../)
+
+- Java Script Data type
+ 1. String
+ 2. Number
+ 3. Boolean 
+ 4. Null Undefined
+ 5. Object
+ 6. Symbol
+
+   
+Three replacement to bind JS
+
+
+Java Script VS TypeScript
+
+.js (Java Script, unvalid in  TS) and .ts (Type Script, Valid in Java Script )
+ 
+- TS is the superset of java script
+- If you know JS, you can't perfect to learn the TS because you have to know about the more features such as OOP and other features of JS.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

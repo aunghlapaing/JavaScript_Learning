@@ -1,0 +1,67 @@
+1. Array push is used to add the data from the last index number of the array.
+2. Unshift is used to add the data from the first index of the array.
+3. Pop is used to delete the data from the last index number.
+4. shift is used to delete the data from the first index number of the array.
+5. Length is used to show the length of the array.
+
+
+Error handling
+- ------------------------- -
+Error handling is need when we used the API call. Why?
+We can be know or we can avoid the error in our code, However,
+When the error happens from the API call, we can be freak and our code can't run. That is why we use the error handling in our code.
+Especially, we use this when the most error happen place, for example API call
+
+
+try {
+
+    In the try block code, we usually put the most error happen code
+
+}catch (error or whatevever you need) { // catch has the parameter to catch the such proper error name and the error happen, it will return the error type
+    when the error happen in try block code, our program will not kill and run the catch block code
+}
+
+
+Array Destructuring in ES6 Vs old model
+- -------------------------- -
+1. Destructuring is used to copy the array or object. We can also used the spread operator
+
+let var const
+- ------------------------- -
+1. Var is like public variable in java. 
+2. If the variable was declared with var, the program define as golobal variable.
+3. If the variable was declared without var, let and const, it is defined as var.
+
+
+continue and beak
+- ----------------------  -
+1. we can't use the continue and break in foreach.
+2. Continue is used to skip accroding to the condition statement, and continue excute the rest of code
+3. Break is used to stop the excution when the condition statement is true, and stop the excution the rest of code.
+
+
+concat built-in function 
+- -------------------------- -
+1. Concat is used to combine the different array
+
+Spread operator
+- ---------------------- -
+1. Spread Operator is used to replace the concat
+2. It is mainly used to copy or clone the data
+3. Syntx for the spread is ... and the it is the new feature of the JS ES6
+4. ... is represented the properties of the array or object.
+
+rest parameter vs spread operator
+- ---------------------- - 
+1. Both have same syntx however, functions are different
+2. ... is called when the array or object value are copying or cloing, but in other place, it can't be the spread operator.
+3. If we have the function in our program, the function returns the value which was catched by the parameter of the function and show.
+   In this case, function return value can be very long string, int, and etc.., so the function might need very long parameter according to the fucntion return value.
+   Rest parameter can solove this issue by giving the common parameter name and rest parameter (...)
+   But rest parameter can store the data as an array.
+   So, rest parameter is unlimited array, memory usage is directly impact to userInput.
+
+Map function
+- ---------------------- -
+1. Map function is used to change the intial value with the some processing.
+2. Map function is mainly used in real world project.

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <P>This is My Code</P>
+
+    <p id = "testing"></p>
+
+    <button type="button" onclick="window.print()">Check Condition to Print this Page</button>
+    
+    <script>
+        let userName = "Aung Hla";
+        
+        let outPut = "Failed Print";
+            if ( userName == "Aung Hla"){
+                document.getElementById ("testing").innerHTML = "Successful";
+            }else{
+              window.alert("Failed");
+            }
+        console.log(typeof userName);
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is error handling testing</p>
+
+    <script>
+        const name = 'code lab';
+
+        //error handling by using the try catch
+        try{
+            name = 'lab code';
+        } catch (e){ // catch must has the parameter to return the error type
+            console.log ("Error tye: " + e);
+        }
+
+        //after catch block, the program will run the rest of the code
+
+        console.log('This is testing message');
+        
+    </script>
+</body>
+</html>

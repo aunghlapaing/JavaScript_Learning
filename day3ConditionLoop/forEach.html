@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is For Each Looping Example</p>
+
+
+    <script>
+        let item = ['hat','shirt','phone'];
+
+        item.forEach(element => { //elemet is the first array index number in first loop
+            document.write( element );
+            
+        });
+
+        //request the user input by using prompt
+        let userName = prompt ("Enter your name");
+        document.write (userName);
+
+
+        //request the user action (Y/N) by using the comfirm
+        let status = confirm ("Are you oky");
+        console.log(status);
+        
+
+
+    </script>
+</body>
+</html>

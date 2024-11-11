@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is testing for the array destructuring</p>
+
+    <script>
+
+        //array destructuring old model
+        let userName = ['Kyaw', 'Mg Mg', 'Tun Tun'];
+
+        // let userOne = userName [0];
+        // let userTwo = userName [1];
+        // let userThree = userName [2];
+
+        // console.log (userOne , userTwo, userThree);
+
+        // ES6 feature
+        // [userOne, userTwo, userThree] = userName;
+        // console.log (userName);
+
+        function destruct ([userOne, userTwo]) {
+            console.log ([userOne, userTwo]);
+
+        };
+        destruct (userName);
+
+    </script>
+</body>
+</html>

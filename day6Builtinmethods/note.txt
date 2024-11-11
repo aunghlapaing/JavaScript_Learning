@@ -1,0 +1,22 @@
+Approaching the programming language
+- ------------------------- - 
+1. Core concept
+2. validation
+3. API - Fetching 
+4. Dom - (Optional)
+7. es6 - (eslin)
+8. OOP
+
+JS (Vanilia)
+- ----------------------- - 
+JS is not the serverside language, we can't write the API.
+
+
+JS Map Function
+- ------------------------- - 
+1. Map function can use to check the condition, the work is done or not.
+2. Return ==> true : false as new array
+
+JS filter function 
+- -------------------------- - 
+1. It can use for the data search
