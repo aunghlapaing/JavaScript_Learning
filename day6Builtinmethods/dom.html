@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #upTitle {
+            color : red;
+        }
+        /*
+        mostly used
+        <- ------------------ ->
+        id ==> js
+        class ==> css
+        name ==> server side
+        value ==> server side 
+        */
+    </style>
+</head>
+<body>
+    <p>This is dom testing</p>
+    <p  type = 'text' id = 'upTitle' class = 'downTitle' name = 'userName' value ='Testing' >Yhis is red</p>
+
+    <script>
+        // dom is the document object model 
+
+        document.write ("Hello");
+
+        let element = document.getElementById ('upTitle').innerHTML = 'Aung Hla Paing'
+    </script>
+</body>
+</html>

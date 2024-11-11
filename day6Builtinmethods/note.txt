@@ -35,3 +35,10 @@ JS every function
 - ---------------- - 
 1. Every is the reverse of some function.
 2. When at all condition are true, return true.
+
+
+
+Dom
+- -------------------- - 
+1. Dom stands for thr document output model.
+2. It is the tree of the projects
