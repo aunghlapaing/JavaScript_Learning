@@ -1,0 +1,7 @@
+Button (button | submit | reset)
+- ------------------- - 
+1. In form tag of the HTML, if you not declare the button type, vertified itself as submit button
+
+Form
+- ---------------------- -
+1. Serverside language used HTML form tag

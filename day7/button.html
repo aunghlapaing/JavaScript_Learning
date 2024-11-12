@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is the example for the Button</p>
+<!-- Within form tag, button is identidied as submit button -->
+    <form action="" method="">
+        Email : <input type="text" name="email" id="email"><br>
+        Password : <input type="text" name = "password" id = "password"><br>
+
+        <button id = "btnRegister" type = "submit">Register</button>
+        <button id = "btnLogin" type = "button">Login</button>
+        <button id = "btnClear" type = "reset">Clear</button> 
+    </form>
+
+    <img style="width: 300px;" alt="" id = "image">
+    <button onclick="show()">Click to show Photo</button>
+
+
+</body>
+<script>
+
+    function show(){
+        document.getElementById('image').src ="data:image/jpeg;base64,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";
+    };
+    //3 types of button submit (One loading) / button () / reset (Erase the input box data)
+
+    let email = document.getElementById ('email');
+    let password = document.getElementById ('password');
+
+    let registerBtn = document.getElementById ('btnRegister');
+    let loginBtn = document.getElementById ('btnLogin');
+    let clearBtn = document.getElementById ('btnClear');
+
+    registerBtn.addEventListener('click',function  (){
+        console.log ('register');
+    });
+
+    loginBtn.addEventListener('click',function(){
+        console.log ('login');
+    })
+
+    clearBtn.addEventListener ('click',function (){
+        console.log ('clear');
+    })
+
+</script>
+</html>

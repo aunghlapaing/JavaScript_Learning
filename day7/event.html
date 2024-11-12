@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is Event Testing</p>
+    Email  : <input type="text" name="email" id="email" value=""> <br>
+    Password : <input type="text" id = "password" value=""><br>
+    <button id = 'btnLogin'>Login</button>
+    <button onclick="clearFun()">Clear</button>
+</body>
+<script>
+
+    //selector
+    let userName = document.getElementById ('email');
+    let userPassword = document.getElementById ('password');
+
+    let loginBtn = document.getElementById ('btnLogin');
+    let clearBtn = document.getElementById ('btnClear');
+
+    //onclick function
+loginBtn.addEventListener ('click', function(){ //getter method
+    console.log (userName.value, userPassword.value);
+})
+
+//other example of onclick function
+function clearFun (){
+    userName.value ="";
+    userPassword.value = "";
+}
+
+</script>
+</html>
