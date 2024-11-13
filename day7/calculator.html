@@ -32,7 +32,7 @@
 <script>
     let number1 = document.getElementById ('num1');
     let number2 = document.getElementById ('num2');
-    let Selector = document.getElementById ('selector');
+    let selector = document.getElementById ('selector');
     let btnCalculate = document.getElementById ('btn_calculate');
     let btnReset = document.getElementById ('btn_reset');
 
@@ -55,7 +55,7 @@
         console.log (typeof number1);
 
 
-        switch (Selector.value){
+        switch (selector.value){
             case '-' : result = firstNumber- secondNumber; break;
             case '*' : result = firstNumber * secondNumber; break;
             case '/' : result = firstNumber /  secondNumber; break;
