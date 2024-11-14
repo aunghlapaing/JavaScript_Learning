@@ -56,23 +56,17 @@
             <th>Rating</th>
         </tr>
 
-        
-        
     </table>
 </body>
 <script>
 
     let table = document.getElementById ('productTable');
     let dataFetching = async () => {
-        var temp = "";
+        var temp = ""; //global variable temp
         try {
             let response = await fetch ("https://fakestoreapi.com/products")
             products = await response.json (); //gobal variable
-            
-        }catch (e){
-            console.log ("Error Occur ! :" + e);
-        }
-        products.forEach(element => {
+            products.forEach(element => {
             
             temp += `
             <tr>
@@ -102,6 +96,11 @@
             
             
         });
+            
+        }catch (e){
+            console.log ("Error Occur ! :" + e);
+        }
+        
     }
     // dataFetching ();
 </script>
