@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is testing for the API</p>
+</body>
+<script>
+    //https://fakestoreapi.com/products
+
+    
+    // aysnc await need call back function
+    // Promise fetch
+    // axios
+    // ajax
+    // guzzle
+
+    //aysnc await syntax
+    let dataFetching = async () => {
+        try{
+            let response = await fetch ("https://fakestoreapi.com/products")
+            //here var is used to declare the global variable for the product
+            var products = await response.json(); //need to change the json format
+        }catch (e){
+            console.log ("Error ==> ", e)
+        }
+        console.log (products);
+        
+    }
+    dataFetching (); //function call
+
+    //2nd promise fetch API call
+    function callApi() {
+     try{
+        fetch ("https://fakestoreapi.com/products")
+        .then ( res => res.json() ) //if API work (same as if statement)
+        .then ( (products) => { //ad json data to the products
+            console.log (products);
+    
+        }) 
+     } catch (e){
+        cosole.log ("Error Occurs : " + e);
+     }
+    }   
+    callApi();
+
+</script>
+</html>

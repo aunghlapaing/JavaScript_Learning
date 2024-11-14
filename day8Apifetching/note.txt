@@ -1,0 +1,9 @@
+What is API?
+- --------------------- -
+1. API stands for the application programming interface.
+2. It mainly focus on the data transfer for customer request.
+
+        Client (Request) ==> API ==> API Server ==> DataBase
+        Client (Response) <== API <== API Server <== DataBase
+
+3. Request time and Response time with HTTP Service

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is example for the API call 2nd (promise fetch)function</p>
+
+    <script>
+
+        //promise fetch api call function
+        function apiCall (){
+            try {
+                fetch ("https://fakestoreapi.com/product")
+                .then ( (result) => { //asign the api data to result and change the json code in this function
+                products = result.json() 
+                console.log (products); //output will be pending because api data is fetching and changing the json code at the same time.
+            })
+            }catch (e){
+                console.log("Error Occour ! :" + e);
+                
+            }
+        }
+
+        apiCall (); //api call
+    </script>
+</body>
+</html>

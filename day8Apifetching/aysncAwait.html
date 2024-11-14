@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API call (aysnc await)</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 15 px;
+    }
+    .product_table {
+        width: 90%;
+        margin: auto;
+        border-collapse: collapse;
+        margin-top: 30px;
+        border: black;
+    }
+    .product_table1 td , .product_table th {
+        border : 1px solid rgb(243, 234, 234);
+        padding: 8 px;
+    }
+
+    .product_table tr:nth-child(even){
+        background-color: #fff;
+
+    }
+    .product_table tr:hover {
+        background-color: rgb(230, 241, 241);
+    }
+    .product_table th {
+        background-color: rgb(7, 8, 8);
+        color: rgb(243, 227, 227);
+
+    }
+    .btn {
+        background-color: blueviolet;
+        border: none;
+        padding: 10px 15px;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+</style>
+<body>
+    <button class = "btn" onclick="dataFetching()">Get Product List</button>
+    <table class="product_table" id = "productTable">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Decription</th>
+            <th>Photo</th>
+            <th>Price</th>
+            <th>Rating</th>
+        </tr>
+
+        
+        
+    </table>
+</body>
+<script>
+
+    let table = document.getElementById ('productTable');
+    let dataFetching = async () => {
+        var temp = "";
+        try {
+            let response = await fetch ("https://fakestoreapi.com/products")
+            products = await response.json (); //gobal variable
+            
+        }catch (e){
+            console.log ("Error Occur ! :" + e);
+        }
+        products.forEach(element => {
+            
+            temp += `
+            <tr>
+                <td>${element.id}</td>
+                <td>${element.title}</td>
+                <td>${element.description}</td>
+                <td><img src="${element.image}" width = 50px;></td>
+                <td>${element.price}</td>
+                <td>${element.rating.count} viewer</td>
+                <td>${element.rating.rate} stars</td>
+            </tr>
+            `
+            console.log(products);
+
+            // console.log(temp);
+            table.innerHTML = `
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Decription</th>
+                <th>Photo</th>
+                <th>Price</th>
+                <th>View Count</th>
+                <th>Rating</th>
+            </tr>
+            `+temp;
+            
+            
+        });
+    }
+    // dataFetching ();
+</script>
+</html>
