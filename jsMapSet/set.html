@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is set example</p>
+</body>
+<script>
+    //create a new empty set
+    let newSet = new Set ();
+    
+    //add properties
+    newSet.add ('Aung Hla');
+    newSet.add ('Student');
+
+    console.log(newSet);
+
+    //initialize a set into arry 
+    const newAry = [...newSet];
+    console.log(newAry);
+
+    //delete method of set
+    newSet.delete ('Aung Hla');
+    console.log (newSet)
+
+    //has method of set 
+    let hasMethod = newSet.has ('Aung Hla');
+    console.log (hasMethod);
+
+    //iteration the set
+    newSet.forEach(element => {
+        console.log (element);
+    });
+    
+    
+    
+</script>
+</html>

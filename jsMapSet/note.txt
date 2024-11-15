@@ -1,0 +1,9 @@
+Map 
+- ----------------- - 
+1. Map is similar to an object and array datatype.
+2. object store the data as string, although, map store an premitive or object
+3. Map retain their insertion order, whereas objects do not have a guranteed order.
+
+Set 
+- ------------------ - 
+1. Set is similar to array, however array have signficant advantage over set

@@ -21,6 +21,27 @@
         //output map by using console.log
         console.log (map);
 
+        //create an object
+        const obj = {
+            name : 'Aung Hla',
+            age : 20, 
+            job : 'Programmer'
+        }
+
+        //converting object into map 
+        const mapNew = new Map (Object.entries (obj))
+
+        console.log (mapNew);
+
+        //changing map into object
+        const newObj = Object.fromEntries (mapNew);
+        console.log(newObj);
+        
+
+        const user = new Map ();
+
+
+
 </script>
 </body>
 </html>
