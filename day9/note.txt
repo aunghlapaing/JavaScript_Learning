@@ -1,0 +1,7 @@
+Local Storage
+- ----------------------- -
+1. Temporary Storage device io the web browser
+   inspect ==> application ==> local storage
+2. localStorage.setItem ==> to set the value
+3. localStorage.getItem ==> get the localStorage value from the every part of the program by calling the key
+4. localStorage.removeItem ==> to remove the storage
