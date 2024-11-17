@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let user = {
+        name : "aungaung",
+        email : "aungaung89@gmail.com"
+
+    }
+
+    let user2 = {
+        name : "maungmaung",
+        email : "maungmaung89@gmail.com"
+        
+    }
+
+    let user3 = {
+        name : "zawzaw",
+        email : "zawzaw89@gmail.com"
+        
+    }
+
+    console.log (user3.name);
+
+    //class 
+    class userInfo {
+        constructor(car, model){
+            this.carName = car;
+            this.carModel = model;
+        }
+        name = "aung";
+        job = "programmer";
+
+        //method || function
+        getAge (){
+            return 20;
+        }
+
+        getCarmodel (){
+            return this.carModel;
+        }
+    }
+
+    //car object
+    //if object has parameter, we also need to delcare the constructor becuase class don't have the return parameter value
+    let carObj = new userInfo ('BMW', 2002); //object with parameter
+    console.log (carObj.carName, carObj.carModel);
+
+    console.log (`This is ${carObj.getCarmodel()}`);
+
+    //object
+    let obj = new userInfo();
+    console.log (obj.getAge ());
+    console.log (obj.name);
+
+
+
+</script>
+</html>

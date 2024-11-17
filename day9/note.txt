@@ -1,7 +1,28 @@
-Local Storage
+Local Storage | Session stroage | cookies
 - ----------------------- -
 1. Temporary Storage device io the web browser
    inspect ==> application ==> local storage
 2. localStorage.setItem ==> to set the value
 3. localStorage.getItem ==> get the localStorage value from the every part of the program by calling the key
 4. localStorage.removeItem ==> to remove the storage
+5. Maximum amount of local stroage ==> 5 - 10 mb
+6. Maximum amount of local stroage => 5 - 10 mb
+7. Maximum amount of local stroage => 4 kb
+
+
+ Client side ==> local Storage
+ Server sider ==> session || cookies
+
+ When 
+ Data Size ==> If (large) session, else (small) cookies
+ Severside to API always transfer ==> cookies
+ Expired : close the window, data will delete from the session, but cookies will not until the expected time
+
+
+
+Framework VS Library / Package Vs Native
+- ------------------------------- - 
+native - basic
+Framework - vue, angular ==> come from basic
+            like (apartment with full furnished)
+Library/Package - Like (apartmet without nothing, we need to create manully)
