@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>interval</p>
+</body>
+<script>
+    let count = 0;
+    setInterval ( () =>{
+        document.write(`Welcome all ${count++}<br>`);
+        // location.reload()
+    },1000)
+
+    setTimeout(() => {
+        let serverResponse = [
+                {name : 'code lab', email : 'codelab.gmail.com'},
+                {name : 'code lab', email : 'codelab.gmail.com'},
+                {name : 'code lab', email : 'codelab.gmail.com'},
+                {name : 'code lab', email : 'codelab.gmail.com'},
+                {name : 'code lab', email : 'codelab.gmail.com'}
+
+        ]
+        serverResponse.forEach ( (item) =>{
+            document.write (`
+                <span style= "color: red;">${item.name} & ${item.email}</span> <br>
+            `)
+    
+        } )
+    }, 5000);
+</script>
+</html>

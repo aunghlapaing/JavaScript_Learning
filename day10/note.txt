@@ -1,0 +1,11 @@
+Interval
+- ---------------------------- -
+1. two type of interaval
+   set interval -- set time-out
+
+2. We need real time data in our code,
+just like facebook notification, 
+
+3. However, PHP and laravel language can't do real time date request but we can create manually,
+   for example, set interval can run manually according to the set interval time, and set time out has the termatie point according to the dev set the time to show the noti and out from the program.
+   set interval will run automatically, it will never stop
