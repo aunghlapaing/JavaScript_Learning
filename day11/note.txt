@@ -1,0 +1,17 @@
+Jquery
+- ---------------------- -
+1. Jquery is a library of JavaScript
+2. Control for the Dom, Event, Element hiding or showing, API call, validation
+3. Mainly work for validation, adjex, Data Searching for example
+4. IN JS (get method from DOM is .innerHTML) but Jquery is (html) ==> getter
+5. In Js (set method to DOM is innHTML = ""), but in Jquery is (html (")) ==> setter
+
+6. In Jquery, Ajax is used to call the API
+
+Need to know
+- ----------------------- - 
+selector
+Event
+getter | setter
+Class put | remove
+API | DOM

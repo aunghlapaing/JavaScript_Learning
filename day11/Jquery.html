@@ -7,21 +7,54 @@
 </head>
 <body>
     <p id = "page">This is Jquery Testing</p>
-</body>
+    <button id="hideBtn" style="background-color: rgb(57, 205, 205); border-radius: 20px solid rgb(228, 29, 29);">Hide Button</button>
+    <button id="showBtn">Show Button</button>
+    <h2>This is testing for show and hide</h2>
 
+    <input type="text" id = "userName">
+    <button id="btnCreate"> Create</button>
+</body>
+<!-- cdn link  (cdnjs.com) short run time because it is minmum version -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
-    //jquery code write in this code block
-    $(document).ready (function (){
+    //jquery code must write in this code block
+   $(document).ready (function (){
 
-        //jquery code
-        let page = $('#page').html();
-        console.log (page);
+    //js code 
+    // let page1 = document.getElementById("page").innerHTML;
+    // consolel.log (page1);
 
-        //js code
-        // let page = document.getElementById("page");
-        // console.log(page);
-        
+    // page.addEventListner ('click', function (){
+    //     page.innerHTML = "Aung HLa";
+    // })
+
+
+    //jquery code
+
+    //hidebtn
+    $("#hideBtn").click (function(){
+        $('h2').hide(1000); //1000 is for animation
     })
+
+    //showbtn
+    $("#showBtn").click (function  (){
+        $('h2').show(1000);
+    })
+
+    //btn Create
+    $("#btnCreate").click (function (){
+        $('h2').html ($("#userName").val());
+    })
+    //selector of Jquery
+    let Page = $("#page").html();
+    console.log (Page);
+
+   
+    //onclick event with jquery
+    $("#page").click (function (){
+        // console.log ("On Click Function");
+        $("#page").html ("<p>Aung Hla</p>") //html(Html code work), text (html code will not work)
+    })
+   })
 </script>
 </html>
