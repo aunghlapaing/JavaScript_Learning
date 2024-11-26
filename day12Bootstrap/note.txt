@@ -1,0 +1,45 @@
+Bootstrap | Tailwind (Design Framework) 
+- ----------------------------------- - 
+ 
+Requirements to learn 
+1. HTML | CSS 
+2. Component  Base ( Ready Made ) 
+
+HTML + CSS + Bootstrap
+
+Installation for bootstrap 
+</body>
+
+# verifies the right Node.js version is in the environment
+node -v # should print `v22.11.0`
+
+# verifies the right npm version is in the environment
+npm -v # should print `10.9.0`
+git config --global username "aunghlapaing"
+
+Bootstrap Link #3 Methods
+- ------------------------- - 
+1. cnd direct Link
+2. official website link (Second used)
+3. npm bootstrap package install (It is the most used)
+
+Step - 1
+- -------------------- - 
+
+Folder Permission in Linux
+- ------------------------ -
+sudo chmod -R 777 "folderName"
+password "your account password"
+
+Step - 2 
+
+Declare Cmd to use npm in the selected folder
+- --------------------------- -
+npm init -y
+ ==> After that json file will appear in the selected folder.
+
+ Step 3
+Install bootstrap npm
+- ------------------ - 
+sudo npm i bootstrap
+==> After that, node_modules folder and package-lock.json will appear.
