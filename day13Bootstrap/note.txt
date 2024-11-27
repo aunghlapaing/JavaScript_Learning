@@ -1,0 +1,6 @@
+Bootstrap day 13
+- ---------------------- - 
+1. Do not write the css code in bootstrap code
+2. But you can assign !important for every condition.
+3. Being open source, it have many componments, so do not copy-paste very soon
+4. 
