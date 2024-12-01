@@ -1,0 +1,9 @@
+In bootstrap web page, it have 12 ratio
+
+for width responsive
+366 (for mobile), 768 (for ipad), 1366 (for desktop)
+
+
+**Code need to be structure to be responsive**
+
+

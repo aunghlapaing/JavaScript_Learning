@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <label for="userName">User Name</label>
+    <input type="text" name="" id="userName" class="m-5 form-control w-25">
+    <input type="text" name="" id="" class="m-5 w-25 form-control shadow-sm ">
+    <input type="file" class=" form-control w-25 form-control-sm m-5">
+
+    <select name="" id="" class="form-select m-5 shadow-sm w-25">
+        <option value="">Myanmar</option>
+        <option value="">English</option>
+        <option value="">Mathematics</option>
+    </select>
+
+    <!-- datalist Example -->
+     <label for="dataList" class="form-label">Data List Example</label>
+     <input type="text" name="dataList" list="dataList" id="" class="form-control w-25 m-5 shadow-sm">
+     <datalist value="" id="dataList">
+        <option value="">Pizza</option>
+        <option value="">Burger</option>
+        <option value="">Fried Chicken</option>
+        <option value="">Cheese Burger</option>
+     </datalist>
+
+     <div class="m-5">
+        <input type="radio" name="" id="" class="form-check-input">male
+     </div>
+     <div class="m-5">
+        <input type="radio" name="" id="" class="form-check-input">female
+     </div>
+
+     <!-- input group example | parent level should be inpuut-group-->
+      <div class="m-5 w-50 input-group">
+        <span class="input-group-text btn btn-outline-info">
+            <i class="fa-solid fa-magnifying-glass"></i>  search
+        </span>
+        <input type="text" name="" id="" placeholder=" Enter keywords . . . " class="form-control w-25 shadow-sm">
+      </div>
+
+      <!-- floating tale -->
+       <div class="form-floating m-5 w-50">
+        <input type="email" class="form-control border-info shadow-sm" id="floatingInput" placeholder="Enter Your Email">
+        <label for="floatingInput" >Enter Email Address</label>
+       </div>
+
+       <!-- Error | invalid input -->
+       <div class="m-5 w-50">
+        <input type="email" class="form-control is-invalid shadow-sm" id="floatingInput" placeholder="Enter Your Email">
+        <span class="text-danger invalid-feedback">invalid-input</span>
+       </div>
+       <!-- valid -->
+       <div class="m-5 w-50">
+        <input type="email" class="form-control is-valid shadow-sm" id="floatingInput" placeholder="Enter Your Email">
+        <span class="text-success">invalid-input</span>
+       </div>
+
+       <form action="" class="w-50 m-5">
+        <input type="text" name="" id="" class="form-control m-5" required>
+        <input type="submit" value=" Create " class="btn btn-info ms-5">
+       </form>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>
+</html>
