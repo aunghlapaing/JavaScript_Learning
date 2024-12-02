@@ -8,11 +8,237 @@
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!-- font-awesome cnd link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<body>
+<body class="bg-light">
     <!-- nav start -->
-
-    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm sticky-top">
+        <div class="container">
+          <a class="navbar-brand text-info" href="#">Protfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="navbar-nav">
+                <a class="nav-link active text-info" aria-current="page" href=".home">Home</a>
+                <a class="nav-link active text-info" aria-current="page" href="#about_me">About Me</a>
+                <a class="nav-link active text-info" aria-current="page" href="#">Skill</a>
+                <a class="nav-link active text-info" aria-current="page" href="#">Projects</a>
+                <a class="nav-link active text-info" aria-current="page" href="#">Team Members</a>
+                <a class="nav-link active text-info" aria-current="page" href="#">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
     <!-- nav end -->
+    
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="container-lg ">
+            <div class="row align-content-center align-items-center vh-100 my-5 px-3">
+                <div class="col-md-6 ">
+                    <div class="text-center">
+                        <img src="./image/Profile.jpg" alt="" class="w-75 rounded-circle shadow-sm">
+                    </div>
+                </div>
+                <div class="col-md-6 order-md-first mt-5">
+                    <div class="">
+                        <p class="text-muted">Hello I'm</p>
+                        <h1 class="text-info fw-bold text-uppercase">Web Designer</h1>
+                        <h2>Aung Hla</h2>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente atque aliquam fuga obcaecati recusandae reiciendis pariatur quae dolores perferendis reprehenderit eum molestiae, sequi unde quod quo illum cumque nisi porro.</p>
+                        <a href="./image/CV.pdf"><button class="btn btn-info text-white rounded shadow-sm">Download My CV-Form</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- home section end -->
+
+    <!-- about me start -->
+    <section class="about-me" id="about_me">
+        <div class="container-lg">
+            <div class="row px-3">
+                <div class="col-6 offset-3 text-center">
+                    <h2 class="fw-bold">About Me</h2>
+                </div>
+            </div>
+            <div class="row mt-4 px-3">
+                <div class="col-md-6 col-12 order-md-first">
+                    <div class="row mb-2">
+                        <h3>Freelancer</h3>
+                    </div>
+                    <div class="row mb-2">
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus repellat quod dolore dignissimos et magni ex minima. Quaerat, voluptate eligendi? Beatae, sed aut nobis consectetur omnis odit quibusdam porro numquam?</p>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col-md-4 text-center">
+                            <h1 class="fw-bold">100+</h1>
+                            <p class="text-muted text-uppercase">Project Completed</p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <h1 class="fw-bold">90+</h1>
+                            <p class="text-muted text-uppercase">Client Satisfied</p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <h1 class="fw-bold">99+</h1>
+                            <p class="text-muted text-uppercase">Positive Reviews</p>
+                        </div>
+                    </div>
+                    
+                    <span class="d-flex align-items-center">
+                        <button class="btn btn-info shadow-sm rounded text-white">My Work</button>
+                        <i class="fa-brands fa-youtube fs-3 mx-3 "></i>
+                        <i class="fa-brands fa-facebook fs-3 me-3 "></i>
+                        <i class="fa-brands fa-github fs-3 me-3 "></i>
+                        <a href="https://www.linkedin.com/in/aung-hla-0139ab303" target="_blank" class="text-decoration-none text-dark"><i class="fa-brands fa-linkedin fs-3 me-3"></i></a>
+                    </span>
+    
+                        <!-- <div class="col-3">
+                            <button class="btn btn-info shadow-sm rounded text-white">My Work</button>
+                        </div>
+                        <div class="col-3">
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                        <div class="col-3">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="col-3">
+                            <i class="fa-brands fa-github"></i>
+                        </div> -->
+                    
+                </div>
+
+                <div class="col-md-6 mt-5">
+                    <div class="mb-4">
+                        <h5>HTML</h5>
+                        <div class="progress " style="height: 6px;" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar text-bg-info" style="width: 75%"></div>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <h5>CSS</h5>
+                        <div class="progress " style="height: 6px;" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar text-bg-info" style="width: 75%"></div>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <h5>JavaScript</h5>
+                        <div class="progress " style="height: 6px;" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar text-bg-info" style="width: 80%"></div>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <h5>React</h5>
+                        <div class="progress " style="height: 6px;" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar text-bg-info" style="width: 75%"></div>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <h5>Vue.Js</h5>
+                        <div class="progress " style="height: 6px;" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar text-bg-info" style="width: 50%"></div>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <h5>JavaSE</h5>
+                        <div class="progress " style="height: 6px;" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar text-bg-info" style="width: 25%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about me end -->
+
+    <!-- what I do start -->
+    <section class="what I do" id="what_i_do">
+        <div class="container-lg">
+            <div class="row my-3 px-3">
+                <div class="col-6 offset-3 text-center">
+                    <h2 class="fw-bold">What I do?</h2>
+                </div>
+            </div>
+
+            <div class="row mt-3 px-3">
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class="bg-white rounded shadow-lg p-4">
+                        <div class="my-3">
+                            <i class="fa-solid fa-code text-info fs-1"></i>
+                        </div>
+                        <h4 class="fw-bold text-uppercase">Web Development</h4>
+                        <p class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus tempora, cumque veniam magni laborum expedita, omnis deleniti ipsam nisi beatae quaerat quasi quibusdam! Voluptatum eum at sed sapiente eveniet earum?</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class="bg-white rounded shadow-lg p-4">
+                        <div class="my-3">
+                            <i class="fa-brands fa-android text-info fs-1"></i>
+                        </div>
+                        <h4 class="fw-bold text-uppercase">Android Development</h4>
+                        <p class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus tempora, cumque veniam magni laborum expedita, omnis deleniti ipsam nisi beatae quaerat quasi quibusdam! Voluptatum eum at sed sapiente eveniet earum?</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class="bg-white rounded shadow-lg p-4">
+                        <div class="my-3">
+                            <i class="fa-brands fa-apple text-info fs-1"></i>
+                        </div>
+                        <h4 class="fw-bold text-uppercase">IOS Development</h4>
+                        <p class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus tempora, cumque veniam magni laborum expedita, omnis deleniti ipsam nisi beatae quaerat quasi quibusdam! Voluptatum eum at sed sapiente eveniet earum?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- what I do end -->
+
+    <!-- Latest Projects start -->
+    <section class="latest project" id="latest_project"></section>
+        <div class="container-lg">
+            <div class="row my-3 px-3">
+                <div class="col-6 offset-3 text-center">
+                    <h2 class="fw-bold">What I do?</h2>
+                </div>
+            </div>
+
+            <div class="row mt-3 px-3">
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class="bg-white rounded shadow-lg p-4">
+                        <div class="my-3">
+                            <i class="fa-solid fa-code text-info fs-1"></i>
+                        </div>
+                        <h4 class="fw-bold text-uppercase">Web Development</h4>
+                        <p class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus tempora, cumque veniam magni laborum expedita, omnis deleniti ipsam nisi beatae quaerat quasi quibusdam! Voluptatum eum at sed sapiente eveniet earum?</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class="bg-white rounded shadow-lg p-4">
+                        <div class="my-3">
+                            <i class="fa-brands fa-android text-info fs-1"></i>
+                        </div>
+                        <h4 class="fw-bold text-uppercase">Android Development</h4>
+                        <p class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus tempora, cumque veniam magni laborum expedita, omnis deleniti ipsam nisi beatae quaerat quasi quibusdam! Voluptatum eum at sed sapiente eveniet earum?</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mt-4 text-center">
+                    <div class="bg-white rounded shadow-lg p-4">
+                        <div class="my-3">
+                            <i class="fa-brands fa-apple text-info fs-1"></i>
+                        </div>
+                        <h4 class="fw-bold text-uppercase">IOS Development</h4>
+                        <p class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus tempora, cumque veniam magni laborum expedita, omnis deleniti ipsam nisi beatae quaerat quasi quibusdam! Voluptatum eum at sed sapiente eveniet earum?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Lasted Projects end -->
     
 </body>
 <!-- js npm link -->
