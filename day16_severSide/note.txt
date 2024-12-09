@@ -1,0 +1,15 @@
+xampp installtion for arch linux
+- -------------------- -
+1. download xampp installer
+2. sudo chmod +x xampp-64..-installer
+3. run installer == > sudo ./xampp...-installer
+4. user password == > jkhf (for example)
+5. install relate package
+6. xampp application file will automatically save in /opt/lampp 
+7. start apache server and mysql server
+   sudo /opt/lampp startapache and sudo /opt/lampp startmysql
+
+8. Stop severs
+   sudo /opt/lampp stop
+
+
