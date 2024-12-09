@@ -13,3 +13,15 @@ xampp installtion for arch linux
    sudo /opt/lampp stop
 
 
+how to run php file
+- ------------------------- -
+1. check apache and mysql server status
+   if not active, 
+      sudo /opt/lampp/lampp startapache
+      sudo /opt/lampp/lampp startmysql
+2. create htdos foler in /opt/lampp directory to access direectly
+3. create anywhere
+   not in htdos
+      php -S localhost:<port number> filename (this cmd should be in parent directory)
+
+   
