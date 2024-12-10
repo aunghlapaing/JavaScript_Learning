@@ -1,1 +1,71 @@
 50 minutes so far ok?
+
+Must know in PHP
+- ---------------------- - 
+1. build in function && method
+2 string function && math function && array function && object function
+
+
+Server Side
+- --------------------- - 
+1. HTTP Request == > request | respose (Page loading)
+
+Method GET
+- -------------------- -
+1. get the data from URL (contain related data)
+   for example 
+    http://localhost:5553/?name=aunghla&job=programmer
+2. Can see data (parameter)
+    
+Method POST
+- -------------------------- - 
+1. POST method come with form
+2. pseudocdoe
+   <form method = "post">
+   	name : <input type = "text" name = "name">
+   </form>
+   
+   In above pseudocode, post method is used and name return to post method.
+3. can not see the data (parameter) 
+   http://localhost:5553
+   
+   
+ ** Both post ang get method will not work on the different port number in localhost **
+
+ Method REQUEST
+ - ---------------------- - 
+ 1. REQUEST method is compitable with post and get method.
+   For instance, method in form declared as either post or get, $_REQUEST method can use.
+   usecase
+   <form method="post || get">
+        <Aung Hla>
+   </form>
+
+   <?php
+        echo ($_REQUEST)
+   ?>
+
+   OUTPUT
+   - ------- -
+   array {
+    Aung Hla
+   }
+
+Method SESSION
+- ------------------------  -
+1. session start -- > for connection 
+
+2. Usecase
+   session_start();
+   $_SESSION ['userData'] = 'This is user data'; set data in browser currently using
+   print_r ($_SESSION['userdata']);
+3. timeline for session storage is until close the tap
+4. will not show in session section in browser
+
+
+COOKIES
+- ----------------------- - 
+1. don't need to start a connection, unlike session.
+  usecase
+  setcookie (cookie_name, cookie_value, dae_of_expire)
+2. Default expire time is 30 minutes, and it will delete after 10 minutes. Instead, it can set the date of expire.
