@@ -1,0 +1,24 @@
+ISSET
+- --------------------------- - 
+1. It is use to check the condition in PHP.
+2. Usecase pseucocode Example
+   <form action="" method="post">
+        <user input post method>
+        <btn_post>
+    </form>
+    <?php
+        if (isset($_POST['btn_post'])){
+            print_r ($_POST);
+        }
+
+3. If isset is not assign in code, before user giving input print_r function would show error message.
+
+session_start ();
+session_destory ();
+unset ($_SESSION ['idName']);
+
+
+require require_once 
+- -------------------------------- -
+
+include include_once
